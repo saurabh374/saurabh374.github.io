@@ -1,68 +1,717 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<!doctype html>
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
-
-  <!-- Favicon -->
-  <link rel="icon" href="/HeroImage.avif" />
-
-  <!-- Responsive Meta -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-  <!-- Primary Meta Tags -->
-  <title>Saurabh Patil | Portfolio</title>
-  <meta name="title" content="Saurabh Patil | Portfolio" />
-  <meta name="description"
-    content="Hi, I'm Saurabh Patil — a passionate developer building creative and impactful digital experiences. Explore my projects, skills, and achievements." />
+  <title>Saurabh Patil | Associate Solution Architect</title>
+  <meta name="description" content="Portfolio of Saurabh Patil: Associate Solution Architect and React & Node.js Specialist with 4+ years of experience building and scaling mission-critical web applications." />
+  <meta name="keywords" content="Saurabh Patil, Associate Solution Architect, Full-stack Software Engineer, React Developer, Node.js Specialist, Next.js, PHP, AWS, Docker, portfolio, Nagpur" />
   <meta name="author" content="Saurabh Patil" />
-  <meta name="keywords"
-    content="Saurabh Patil, portfolio, web developer, projects, software engineer, React developer, frontend developer, JavaScript" />
   <meta name="robots" content="index, follow" />
-
-  <!-- Theme and Appearance -->
-  <meta name="theme-color" content="#000000" />
-  <meta name="color-scheme" content="dark light" />
-
+  
   <!-- Open Graph / Facebook -->
+  <meta property="og:title" content="Saurabh Patil | Associate Solution Architect" />
+  <meta property="og:description" content="Portfolio of Saurabh Patil: Associate Solution Architect and React & Node.js Specialist with 4+ years of experience building and scaling mission-critical web applications." />
+  <meta property="og:url" content="https://saurabh374.github.io/" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://saurabh374.github.io/saurabh-portfolio/" />
-  <meta property="og:title" content="Saurabh Patil | Portfolio" />
-  <meta property="og:description"
-    content="Explore Saurabh Patil's personal portfolio — showcasing web projects, development skills, and creative works." />
-  <meta property="og:image" content="/HeroImage.avif" />
-
+  <meta property="og:site_name" content="Saurabh Patil Portfolio" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:image" content="assets/images/HeroImage.avif" />
+  <meta property="og:image:alt" content="Saurabh Patil Portfolio" />
+  
   <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://saurabh374.github.io/saurabh-portfolio/" />
-  <meta property="twitter:title" content="Saurabh Patil | Portfolio" />
-  <meta property="twitter:description"
-    content="Hi, I'm Saurabh Patil — a passionate web developer and creator. Discover my work and connect!" />
-  <meta property="twitter:image" content="/HeroImage.avif" />
-
-  <!-- Apple Touch Icon -->
-  <link rel="apple-touch-icon" href="/HeroImage.avif" />
-
-  <!-- Manifest -->
-  <link rel="manifest" href="/manifest.json" />
-
-  <!-- Canonical URL -->
-  <link rel="canonical" href="https://saurabh374.github.io/saurabh-portfolio/" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
-    rel="stylesheet">
-
-
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Saurabh Patil | Associate Solution Architect" />
+  <meta name="twitter:description" content="Portfolio of Saurabh Patil: Associate Solution Architect and React & Node.js Specialist with 4+ years of experience." />
+  <meta name="twitter:image" content="assets/images/HeroImage.avif" />
+  
+  <meta name="theme-color" content="#050508" />
+  <link rel="canonical" href="https://saurabh374.github.io/" />
+  <link rel="alternate" hreflang="en" href="https://saurabh374.github.io/" />
+  <link rel="alternate" hreflang="hi" href="https://saurabh374.github.io/?lang=hi" />
+  <link rel="alternate" hreflang="x-default" href="https://saurabh374.github.io/" />
+  
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
+  
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://saurabh374.github.io/#person",
+          "name": "Saurabh Patil",
+          "alternateName": "saurabh374",
+          "url": "https://saurabh374.github.io/",
+          "description": "Associate Solution Architect and Full-Stack Engineer with 4+ years of experience designing, building, and scaling mission-critical web apps and APIs using React, Node.js, PHP, and AWS.",
+          "sameAs": [
+            "https://github.com/saurabh374",
+            "https://linkedin.com/in/iamsaurabhp"
+          ],
+          "jobTitle": "Associate Solution Architect",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Nagpur",
+            "addressRegion": "Maharashtra",
+            "addressCountry": "IN"
+          },
+          "knowsLanguage": ["en", "hi", "mr"],
+          "knowsAbout": [
+            "Software Development",
+            "Web Development",
+            "React.js",
+            "Node.js",
+            "PHP",
+            "Cloud Architectures",
+            "DevOps"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://saurabh374.github.io/#website",
+          "name": "Saurabh Patil Portfolio",
+          "url": "https://saurabh374.github.io/",
+          "description": "Portfolio website of Saurabh Patil, Associate Solution Architect.",
+          "inLanguage": ["en", "hi"],
+          "author": {
+            "@id": "https://saurabh374.github.io/#person"
+          }
+        }
+      ]
+    }
+  </script>
 </head>
 
 <body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div class="site-backdrop" aria-hidden="true"></div>
+  <a class="skip" href="#content" data-i18n="skip">Skip to content</a>
 
-  <div id="root"></div>
-  <script type="module" src="/src/index.jsx"></script>
+  <header class="topbar" role="banner" id="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="#content" aria-label="Saurabh Patil portfolio">
+        <div class="avatar" aria-hidden="true">S</div>
+        <div class="brand-text">
+          <div class="name">Saurabh Patil</div>
+          <div class="role" data-i18n="brandRole">Associate Solution Architect • React & Node.js • DevOps</div>
+        </div>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="Main Navigation" data-i18n-attr="aria-label:navAria">
+        <a href="#profile" data-i18n="navProfile">Profile</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#experience" data-i18n="navExperience">Experience</a>
+        <a href="#education" data-i18n="navEducation">Education</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </nav>
+
+      <div class="actions">
+        <button class="nav-toggle" id="navToggle" type="button"
+          aria-label="Open navigation" aria-expanded="false" aria-controls="mainNav"
+          data-i18n-attr="aria-label:openNav">
+          <span></span><span></span><span></span>
+        </button>
+
+        <button class="btn ghost" id="langBtn" type="button" aria-label="Switch language" data-i18n-attr="aria-label:langBtnAria">HI</button>
+        <button class="btn ghost" id="themeBtn" type="button" aria-label="Toggle theme" data-i18n="themeBtn" data-i18n-attr="aria-label:themeAria">Theme</button>
+        <button class="btn" id="printBtn" type="button" data-i18n="printBtn">Resume / PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-left">
+          <p class="pill">
+            <span class="dot"></span>
+            <span data-i18n="heroPill">Associate Solution Architect • Full-Stack Engineer</span>
+          </p>
+
+          <h1>
+            <span class="grad">Saurabh Patil</span>
+            <small data-i18n="heroSubtitle">Associate Solution Architect • Nagpur, MH, India</small>
+          </h1>
+
+          <p class="lead" data-i18n="heroLead">
+            Dedicated Associate Solution Architect & Full-Stack Engineer with 4+ years of experience designing, building, and scaling mission-critical web applications and APIs. Expert in React, Next.js, Node.js, PHP, and AWS. Spearheaded the architectural migration of SimpleWorks CRM from PHP to React, boosting page-loads by 30% and cutting API latency by 40%, while strengthening security and developer productivity.
+          </p>
+
+          <div class="quick">
+            <a class="chip" href="#contact" data-i18n="quickContact">Contact</a>
+            <a class="chip" href="#projects" data-i18n="quickProjects">Projects</a>
+            <a class="chip" href="#skills" data-i18n="quickSkills">Skills</a>
+          </div>
+
+          <div class="links">
+            <a class="link" href="https://github.com/saurabh374" target="_blank" rel="me noopener noreferrer">GitHub</a>
+            <span class="sep">•</span>
+            <a class="link" href="https://linkedin.com/in/iamsaurabhp" target="_blank" rel="me noopener noreferrer">LinkedIn</a>
+            <span class="sep">•</span>
+            <a class="link" href="https://drive.google.com/file/d/1XAJubip2ygCzAd7s7EkA9J58ChdO8DHF/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-i18n="resumeLink">Resume</a>
+          </div>
+        </div>
+
+        <aside class="hero-right" aria-label="Quick Info" data-i18n-attr="aria-label:quickInfo">
+          <div class="card kpis">
+            <div class="kpi">
+              <div class="kpi-num">4+</div>
+              <div class="kpi-label" data-i18n="kpiExp">Years Experience</div>
+            </div>
+
+            <div class="kpi">
+              <div class="kpi-num">10+</div>
+              <div class="kpi-label" data-i18n="kpiProjects">Projects Delivered</div>
+            </div>
+
+            <div class="kpi">
+              <div class="kpi-num">75%</div>
+              <div class="kpi-label" data-i18n="kpiMigration">System Migrated</div>
+            </div>
+          </div>
+
+          <div class="card mini">
+            <h2 class="mini-title" data-i18n="focusTitle">Focus</h2>
+            <ul class="bullets">
+              <li data-i18n="focus1">High-performance React & Next.js user interfaces</li>
+              <li data-i18n="focus2">Scalable Microservices & Real-time WebSockets APIs</li>
+              <li data-i18n="focus3">DevOps containerization, Nginx routing & AWS cloud hosting</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <div class="bg" aria-hidden="true"></div>
+    </section>
+
+    <div class="wrap">
+      <div class="stack-panel">
+        <ul class="stack-icons" role="list">
+          <li class="stack-icon tech-html">
+            <img src="assets/icons/html.svg" width="38" height="38" alt="HTML icon" loading="lazy" decoding="async" />
+            <span class="stack-label">HTML5</span>
+          </li>
+          <li class="stack-icon tech-css">
+            <img src="assets/icons/css.svg" width="38" height="38" alt="CSS icon" loading="lazy" decoding="async" />
+            <span class="stack-label">CSS3</span>
+          </li>
+          <li class="stack-icon tech-js">
+            <img src="assets/icons/js.svg" width="38" height="38" alt="JavaScript icon" loading="lazy" decoding="async" />
+            <span class="stack-label">JavaScript</span>
+          </li>
+          <li class="stack-icon tech-typescript">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #3178c6;">
+              <path d="M1.125 0h21.75c.621 0 1.125.504 1.125 1.125v21.75c0 .621-.504 1.125-1.125 1.125H1.125A1.125 1.125 0 0 1 0 22.875V1.125A1.125 1.125 0 0 1 1.125 0zm15.719 14.813c.219-.078.438-.172.641-.281.344-.188.625-.438.828-.75a3.02 3.02 0 0 0 .547-1.14c.063-.266.094-.578.094-.938V9.125h-1.922v2.469c0 .172-.016.328-.047.453a.61.61 0 0 1-.156.328.618.618 0 0 1-.297.172c-.125.031-.297.047-.516.047H14.03v-3.469h-1.922v8.281h1.922V14.86c0-.031.063-.047.188-.047h1.625zM9.547 9.125H3.656v1.922h1.984v6.359h1.922v-6.359h1.984V9.125z"/>
+            </svg>
+            <span class="stack-label">TypeScript</span>
+          </li>
+          <li class="stack-icon tech-react">
+            <img src="assets/icons/react.svg" width="38" height="38" alt="React icon" loading="lazy" decoding="async" />
+            <span class="stack-label">React</span>
+          </li>
+          <li class="stack-icon tech-nextjs">
+            <svg viewBox="0 0 180 180" width="38" height="38" aria-hidden="true" style="fill: currentColor;">
+              <path d="M141.137 167.337L68.347 75.313V156H50V24h18.347l72.79 92.023V24h18.347v143.337h-18.347z"/>
+            </svg>
+            <span class="stack-label">Next.js</span>
+          </li>
+          <li class="stack-icon tech-node">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #339933;">
+              <path d="M11.996 0a3.176 3.176 0 0 0-1.587.424L1.737 5.431A3.17 3.17 0 0 0 .15 8.18v10.016a3.17 3.17 0 0 0 1.587 2.75l8.672 5.006a3.174 3.174 0 0 0 3.174 0l8.672-5.006a3.17 3.17 0 0 0 1.587-2.75V8.18a3.17 3.17 0 0 0-1.587-2.75L13.583.424A3.176 3.176 0 0 0 11.996 0zm0 2.21a.95.95 0 0 1 .477.127l8.672 5.006c.294.17.477.487.477.828v10.016c0 .341-.183.658-.477.828l-8.672 5.006a.95.95 0 0 1-.954 0l-8.672-5.006a.95.95 0 0 1-.477-.828V8.171c0-.341.183-.658.477-.828l8.672-5.006a.95.95 0 0 1 .477-.127z"/>
+            </svg>
+            <span class="stack-label">Node.js</span>
+          </li>
+          <li class="stack-icon tech-php">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #777BB4;">
+              <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.185 8.163c.279 0 .524.015.733.045.21.03.376.084.501.164.124.08.204.187.24.321.036.134.027.316-.027.545l-.744 3.149c-.066.273-.189.508-.369.704-.18.196-.396.353-.648.472-.252.119-.533.204-.843.255-.31.05-.629.076-.957.076h-2.148l-.759 3.202H10.96l2.128-9.006c.45-.067 1.018-.1 1.706-.1h2.391zm-7.618 0c.279 0 .524.015.733.045.21.03.376.084.501.164.124.08.204.187.24.321.036.134.027.316-.027.545l-.744 3.149c-.066.273-.189.508-.369.704-.18.196-.396.353-.648.472-.252.119-.533.204-.843.255-.31.05-.629.076-.957.076H5.674l-.759 3.202H2.946l2.128-9.006c.45-.067 1.018-.1 1.706-.1h2.787zM8.384 9.699H7.132l-.567 2.399H7.81c.219 0 .399-.02.541-.059.142-.039.248-.098.318-.179.07-.08.106-.184.106-.312 0-.129-.026-.264-.078-.406a.82.82 0 0 0-.256-.372c-.104-.07-.267-.071-.457-.071zM15.4 9.699h-1.252l-.567 2.399h1.246c.219 0 .399-.02.541-.059.142-.039.248-.098.318-.179.07-.08.106-.184.106-.312 0-.129-.026-.264-.078-.406a.82.82 0 0 0-.256-.372c-.103-.07-.267-.071-.458-.071zm5.654-1.536l-2.128 9.006h-1.97l2.128-9.006h1.97z"/>
+            </svg>
+            <span class="stack-label">PHP</span>
+          </li>
+          <li class="stack-icon tech-mysql">
+            <img src="assets/icons/mysql.svg" width="38" height="38" alt="MySQL icon" loading="lazy" decoding="async" />
+            <span class="stack-label">MySQL</span>
+          </li>
+          <li class="stack-icon tech-docker">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #2496ed;">
+              <path d="M13.983 11.078h2.119c.102 0 .186-.083.186-.185V8.99c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zM11.261 11.078h2.119c.102 0 .186-.083.186-.185V8.99c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zm-2.72 0h2.119c.102 0 .186-.083.186-.185V8.99c0-.102-.084-.186-.186-.186H8.54c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zm-2.72 0h2.119c.102 0 .186-.083.186-.185V8.99c0-.102-.084-.186-.186-.186H5.82c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zm2.72-2.72h2.119c.102 0 .186-.083.186-.185V6.27c0-.102-.084-.186-.186-.186H8.54c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zm2.72 0h2.119c.102 0 .186-.083.186-.185V6.27c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zm-2.72-2.72h2.119c.102 0 .186-.083.186-.185V3.55c0-.102-.084-.186-.186-.186H8.54c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zm5.44 5.44h2.119c.102 0 .186-.083.186-.185V8.99c0-.102-.084-.186-.186-.186h-2.119c-.102 0-.186.084-.186.186v1.903c0 .102.084.185.186.185zM23.957 11.23c-.1-.703-.687-1.378-1.503-1.637-.152-.048-.328-.088-.492-.116-.037-.621-.295-1.19-.728-1.63a.138.138 0 0 0-.191-.013c-.31.258-.57.575-.765.928-.276.012-.55.034-.821.066-.02-.455-.17-.923-.46-1.344a.126.126 0 0 0-.189-.026c-.347.288-.636.653-.847 1.06-.995.143-2.02.261-3.082.352v4.062h9.243c.123 0 .242-.016.361-.04.773-.16 1.488-.646 1.769-1.662.007-.027.014-.055.021-.082.02-.075.051-.157.085-.24zm-9.088 4.793c-2.316 0-4.632-.128-6.948-.383-.41-.045-.82-.097-1.23-.156-.37-.053-.74-.114-1.1-.183-.341-.065-.68-.137-1.018-.216-.312-.074-.622-.156-.931-.247-.282-.083-.564-.173-.842-.27-.253-.087-.502-.183-.75-.286a11.14 11.14 0 0 1-.659-.296c-.19-.093-.38-.192-.563-.298-.168-.097-.333-.203-.493-.315l-.048-.034c-.11-.079-.168-.158-.2-.258-.027-.087-.033-.186-.022-.294.043-.437.288-.86.732-1.267.316-.29.734-.555 1.23-.78.473-.217 1.019-.4 1.62-.544.577-.14 1.226-.242 1.928-.31l.044-.004c.725-.07 1.503-.119 2.316-.148v1.644h3.119V11.23c.899-.023 1.831-.03 2.784-.02v1.634h3.119v-1.603c.531.008 1.066.02 1.603.037.498.016.995.038 1.492.067.435.025.867.056 1.298.093.376.033.75.07 1.121.11.312.034.622.072.93.114.258.035.513.072.766.113.189.03.376.061.562.093.125.022.247.045.367.069.055.011.109.022.164.034.252.06.495.127.73.203.203.065.399.138.587.218.156.067.306.139.45.217l.039.02c.071.04.14.084.208.13.068.046.133.095.195.147.098.082.179.176.241.282.062.106.101.224.117.355.033.275-.027.575-.178.892a4.912 4.912 0 0 1-.774 1.15c-.328.355-.733.665-1.203.923-.448.246-.962.449-1.528.608-.537.151-1.128.267-1.758.349a37.28 37.28 0 0 1-1.92.193 69.347 69.347 0 0 1-2.02.102l-.657.017z"/>
+            </svg>
+            <span class="stack-label">Docker</span>
+          </li>
+          <li class="stack-icon tech-aws">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #ff9900;">
+              <path d="M23.945 15.688c-.378-.718-1.517-2.483-3.69-2.483-2.616 0-4.667 2.05-4.667 4.701 0 2.502 1.83 4.639 4.634 4.639 1.488 0 2.658-.707 3.228-1.554l.032.021a1.293 1.293 0 0 0 1.05 1.572 1.34 1.34 0 0 0 1.547-1.168c.036-.264.444-3.468.219-5.32-.057-.468-.261-.692-.663-.692a.669.669 0 0 0-.67.652l-.022.632zm-3.69 5.378c-1.393 0-2.441-1.04-2.441-2.658s1.04-2.648 2.457-2.648 2.446 1.05 2.446 2.648c-.005 1.623-1.069 2.658-2.462 2.658zm-11.455.512c-1.517 0-2.837-.84-2.837-2.222 0-1.892 2.083-2.316 4.316-2.316.55 0 1.028.026 1.385.076a5.27 5.27 0 0 0-.173-1.428c-.183-.783-.807-1.226-1.812-1.226-1.121 0-2.246.366-2.424.478a.637.637 0 0 1-.321.092.518.518 0 0 1-.509-.509c0-.234.122-.442.361-.59 1.206-.743 2.766-1.073 4.093-1.073 2.517 0 3.998 1.154 3.998 3.595v4.205c0 .768.422.997.778.997a.465.465 0 0 0 .473-.427c.102-.62.249-1.922.376-2.583a.475.475 0 0 1 .494-.392c.28 0 .463.224.437.524-.046.529-.397 3.397-.565 4.053-.163.636-.575.925-1.165.925a1.272 1.272 0 0 1-1.298-1.23l-.03-.021c-.565.845-1.637 1.581-3.355 1.581zm1.261-3.149c-1.348 0-2.507.249-2.507 1.15 0 .61.57.94 1.246.94.977 0 1.83-.585 2.064-1.383a2.03 2.03 0 0 0 .046-.402c-.229-.214-.544-.305-.849-.305zM2.873 14.88c-.285.676-.55 1.393-.778 2.148h3.361c.427-.859.834-1.586 1.19-2.148H2.873zm5.029-2.923c.31.575.63 1.226.936 1.922H11.23c-1.083-2.162-2.316-3.83-3.666-3.83-.687 0-1.185.442-1.185 1.164 0 .341.076.671.214.992l1.309.676v.001-.925zM.052 21.054a.519.519 0 0 0 .509.509c.285 0 1.144-.336 2.083-.758 1.196.488 2.658.743 4.195.743 4.968 0 7.82-2.73 7.82-5.466 0-.325-.03-.646-.092-.956l1.241.641a.573.573 0 0 0 .285.087c.28 0 .54-.204.54-.544 0-.173-.082-.336-.24-.442L8.24 9.878a.59.59 0 0 0-.61-.01c-.198.102-3.844 1.993-5.32 2.766a.552.552 0 0 0-.321.503c0 .285.234.509.509.509.117 0 .234-.036.346-.092.839-.437 2.227-1.154 3.238-1.684.58.793 1.298 1.983 1.922 3.19H.637a.541.541 0 0 0-.539.544c0 .178.077.346.224.453.799.575 1.488 1.261 2.019 1.922-1.399.718-2.119 1.058-2.222 1.103a.56.56 0 0 0-.067.876z"/>
+            </svg>
+            <span class="stack-label">AWS</span>
+          </li>
+          <li class="stack-icon tech-redis">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #d82c20;">
+              <path d="M22 6.5C22 8.433 17.523 10 12 10S2 8.433 2 6.5 6.477 3 12 3s10 1.5 10 3.5zm0 5C22 13.433 17.523 15 12 15S2 13.433 2 11.5V8c0 1.933 4.477 3.5 10 3.5s10-1.5 10-3.5v3.5zm0 5C22 18.433 17.523 20 12 20S2 18.433 2 16.5V13c0 1.933 4.477 3.5 10 3.5s10-1.5 10-3.5v3.5z"/>
+            </svg>
+            <span class="stack-label">Redis</span>
+          </li>
+          <li class="stack-icon tech-rabbitmq">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #ff6600;">
+              <path d="M12 2C6.477 2 2 6.477 2 12c0 2.92 1.25 5.542 3.238 7.37L3.6 22h3.045l1.045-2.222c1.325.437 2.754.722 4.31.722 5.523 0 10-4.477 10-10S17.523 2 12 2zm1 14.5c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5S15.328 18 14.5 18s-1.5-.672-1.5-1.5zm-5-1c0-.828.672-1.5 1.5-1.5s1.5.672 1.5 1.5S9.328 17 8.5 17s-1.5-.672-1.5-1.5z"/>
+            </svg>
+            <span class="stack-label">RabbitMQ</span>
+          </li>
+          <li class="stack-icon tech-genai">
+            <svg viewBox="0 0 24 24" width="38" height="38" aria-hidden="true" style="fill: #8a2be2;">
+              <path d="M12 2L9.5 9.5 2 12l7.5 2.5L12 22l2.5-7.5 7.5-2.5-7.5-2.5L12 2zM6 6L5 8.5 2.5 9.5 5 10.5 6 13l1-2.5 2.5-1L7 8.5 6 6zm12 12l-1 2.5-2.5 1 2.5 1 1 2.5 1-2.5 2.5-1-2.5-1-1-2.5z"/>
+            </svg>
+            <span class="stack-label">GenAI</span>
+          </li>
+          <li class="stack-icon tech-github">
+            <img src="assets/icons/github.svg" width="38" height="38" alt="GitHub icon" loading="lazy" decoding="async" />
+            <span class="stack-label">GitHub</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="section" id="profile">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="profileTitle">Associate Solution Architect Profile</h2>
+          <p data-i18n="profileText">
+            I am an Associate Solution Architect with 4+ years of experience designing, building, and scaling mission-critical web applications and APIs. I have a proven track record of transitioning legacy PHP monoliths into decoupled, event-driven microservices using React, Node.js, and AWS. My expertise lies in designing secure Backend-for-Frontend (BFF) layers, optimizing database query latency, and setting up automated CI/CD pipelines to streamline deployment workflows.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <div class="card reveal rv1">
+            <h3 data-i18n="strengthsTitle">Strengths</h3>
+            <ul class="bullets">
+              <li data-i18n="strength1">Migration & Scalability: Experience refactoring legacy code into decoupled microservices.</li>
+              <li data-i18n="strength2">Performance & Latency Optimization: Focused on speed, clean database indexing, and caching.</li>
+              <li data-i18n="strength3">DevOps & Automation: Skilled in Docker containerization and AWS CI/CD pipelines.</li>
+            </ul>
+          </div>
+
+          <div class="card reveal rv2">
+            <h3 data-i18n="areasTitle">Areas of Interest</h3>
+            <div class="tags">
+              <span class="tag">Full-Stack Development</span>
+              <span class="tag">System Migration</span>
+              <span class="tag">Microservices</span>
+              <span class="tag">Cloud & DevOps</span>
+              <span class="tag">API Security</span>
+            </div>
+            <p class="muted" data-i18n="areasNote">Continuous learning in distributed queueing systems, system security protocols, and advanced automated testing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="wrap">
+        <div class="section-head row reveal">
+          <div>
+            <h2 data-i18n="skillsTitle">Technical Skills</h2>
+            <p class="muted" data-i18n="skillsHint">Use search to highlight specific libraries, tools, or frameworks.</p>
+          </div>
+          <div class="skill-controls">
+            <input id="skillSearch" class="input" type="search" placeholder="Search e.g. React, Docker, AWS..." data-i18n-attr="placeholder:skillPlaceholder" />
+          </div>
+        </div>
+
+        <div class="grid two" id="skillGrid">
+          <div class="card skill reveal rv1">
+            <h3 data-i18n="archTitle">Architecture & Design</h3>
+            <div class="tags">
+              <span class="tag" data-skill="Solution Architecture">Solution Architecture</span>
+              <span class="tag" data-skill="Systems Design">Systems Design</span>
+              <span class="tag" data-skill="Microservices">Microservices</span>
+              <span class="tag" data-skill="RabbitMQ">RabbitMQ</span>
+              <span class="tag" data-skill="GenAI">GenAI</span>
+              <span class="tag" data-skill="Redis">Redis</span>
+              <span class="tag" data-skill="REST APIs">REST APIs</span>
+              <span class="tag" data-skill="Distributed Systems">Distributed Systems</span>
+              <span class="tag" data-skill="Design Patterns">Design Patterns</span>
+            </div>
+            <p class="muted" data-i18n="archText">Design patterns, distributed systems, decoupled microservices, and secure API gateways.</p>
+          </div>
+
+          <div class="card skill reveal rv2">
+            <h3>Frontend</h3>
+            <div class="tags">
+              <span class="tag" data-skill="React">React</span>
+              <span class="tag" data-skill="Redux">Redux</span>
+              <span class="tag" data-skill="Next.js">Next.js</span>
+              <span class="tag" data-skill="Tailwind CSS">Tailwind CSS</span>
+              <span class="tag" data-skill="Material UI">Material UI</span>
+              <span class="tag" data-skill="styled-components">styled-components</span>
+              <span class="tag" data-skill="TypeScript">TypeScript</span>
+              <span class="tag" data-skill="TanStack Query">TanStack Query</span>
+            </div>
+            <p class="muted" data-i18n="frontendText">Responsive design, state management, optimized rendering, and custom hooks.</p>
+          </div>
+
+          <div class="card skill reveal rv3">
+            <h3>Backend & DB</h3>
+            <div class="tags">
+              <span class="tag" data-skill="Node.js">Node.js</span>
+              <span class="tag" data-skill="Express">Express</span>
+              <span class="tag" data-skill="PHP">PHP</span>
+              <span class="tag" data-skill="MySQL">MySQL</span>
+              <span class="tag" data-skill="SQL">SQL</span>
+              <span class="tag" data-skill="MongoDB">MongoDB</span>
+              <span class="tag" data-skill="Redis">Redis</span>
+              <span class="tag" data-skill="WebSockets">WebSockets</span>
+              <span class="tag" data-skill="REST APIs">REST APIs</span>
+            </div>
+            <p class="muted" data-i18n="backendText">Scalable API routes, real-time sync with Socket.IO, database schemas, and fast caching stores.</p>
+          </div>
+
+          <div class="card skill reveal rv4">
+            <h3 data-i18n="engineeringTitle">DevOps & Tools</h3>
+            <div class="tags">
+              <span class="tag" data-skill="AWS">AWS</span>
+              <span class="tag" data-skill="Docker">Docker</span>
+              <span class="tag" data-skill="Nginx">Nginx</span>
+              <span class="tag" data-skill="CI/CD">GitHub Actions</span>
+              <span class="tag" data-skill="Git">Git</span>
+              <span class="tag" data-skill="Sentry">Sentry</span>
+              <span class="tag" data-skill="Playwright">Playwright</span>
+              <span class="tag" data-skill="JMeter">Apache JMeter</span>
+              <span class="tag" data-skill="Jira">Jira</span>
+            </div>
+            <p class="muted" data-i18n="engineeringText">Dockerized apps, Nginx reverse proxies, cloud infrastructure hosting, and automated testing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="projectsTitle">Web & Mobile Projects</h2>
+          <p class="muted" data-i18n="projectsIntro">
+            A selection of recent personal, academic, and freelance projects showcasing full-stack capabilities.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <article class="card project reveal rv1">
+            <div class="project-top">
+              <h3>GTA VI Landing Page</h3>
+              <span class="badge web">Web App</span>
+            </div>
+            <p data-i18n="gtaDesc">A visually striking, SEO-optimized landing page for GTA VI built with Next.js and React. Features pixel-perfect responsive layouts, lazy-loaded assets, and performant animations to engage fans.</p>
+            <ul class="mini-list">
+              <li data-i18n="gta1">Next.js & React Framework structure</li>
+              <li data-i18n="gta2">Pixel-perfect layouts & lazy-loaded assets</li>
+              <li data-i18n="gta3">Performant CSS animations & high SEO scores</li>
+            </ul>
+            <div class="project-links">
+              <a class="link" href="https://saurabh374.github.io/gta_vi_landing/" target="_blank" rel="noreferrer">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="card project reveal rv2">
+            <div class="project-top">
+              <h3>Chatify — Real-Time Chat</h3>
+              <span class="badge app">Web App</span>
+            </div>
+            <p data-i18n="chatifyDesc">Full-featured chat app built with Next.js, Node.js, Express, and MongoDB microservices. Enables real-time messaging, typing indicators, presence status with Socket.IO, OTP-based email auth, and image messaging.</p>
+            <ul class="mini-list">
+              <li data-i18n="chatify1">Socket.IO real-time notification layer</li>
+              <li data-i18n="chatify2">RabbitMQ asynchronous message queues</li>
+              <li data-i18n="chatify3">Redis cache and JWT cookie authentication</li>
+            </ul>
+            <div class="project-links">
+              <a class="link" href="https://github.com/saurabh374/Chatify" target="_blank" rel="noreferrer">GitHub Repository</a>
+            </div>
+          </article>
+
+          <article class="card project reveal rv1">
+            <div class="project-top">
+              <h3>Jyotish Vishwakosh (Web)</h3>
+              <span class="badge freelance">Freelance</span>
+            </div>
+            <p data-i18n="jyotishWebDesc">Content-rich astrology platform using React, CodeIgniter, and AWS. Scaled to 10K+ monthly users with Redis-backed caching and CI/CD deployment pipelines.</p>
+            <ul class="mini-list">
+              <li data-i18n="jyotishWeb1">CodeIgniter PHP backend framework</li>
+              <li data-i18n="jyotishWeb2">React single-page dashboard app</li>
+              <li data-i18n="jyotishWeb3">AWS EC2 hosting with CloudFront & Redis caching</li>
+            </ul>
+            <div class="project-links">
+              <a class="link" href="https://jyotishvishwakosh.com/" target="_blank" rel="noreferrer">Live Site</a>
+            </div>
+          </article>
+
+          <article class="card project reveal rv2">
+            <div class="project-top">
+              <h3>Jyotish Vishwakosh (App)</h3>
+              <span class="badge mobile">Mobile App</span>
+            </div>
+            <p data-i18n="jyotishAppDesc">Flutter-based mobile companion to the Jyotish Vishwakosh platform. Includes Firebase Authentication, push notifications, and real-time updates with less than 2% crash rate post-launch.</p>
+            <ul class="mini-list">
+              <li data-i18n="jyotishApp1">Flutter Android & iOS framework compatibility</li>
+              <li data-i18n="jyotishApp2">Firebase authentication and remote analytics config</li>
+              <li data-i18n="jyotishApp3">FCM Push Notification integration</li>
+            </ul>
+            <div class="project-links">
+              <a class="link" href="https://play.google.com/store/apps/details?id=jyotishvivkosh.mobileapplication" target="_blank" rel="noreferrer">Play Store</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="experienceTitle">Professional Experience</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="t-item card reveal rv1 current">
+            <div class="t-when" data-i18n="expSimpleWorksWhen">Apr 2022 – Present</div>
+            <div class="t-what">
+              <h3 data-i18n="expSimpleWorksTitle">SimpleWorks</h3>
+              
+              <!-- Role 1: Associate Solution Architect -->
+              <div class="sub-role" style="margin-top: 1rem;">
+                <h4 style="font-size: 0.92rem; font-weight: 700; color: var(--accent); margin-bottom: 0.15rem;" data-i18n="expAsaRoleTitle">Associate Solution Architect</h4>
+                <p class="muted" style="font-size: 0.78rem; margin-bottom: 0.5rem;" data-i18n="expAsaWhenRole">Apr 2024 – Present • Nagpur, Hybrid</p>
+                <ul class="bullets">
+                  <li data-i18n="expAsaBullet1">Led migration of 75% of SimpleWorks CRM modules from PHP/Smarty to React, cutting load times by 30% and API latency by 40%.</li>
+                  <li data-i18n="expAsaBullet2">Architected Node.js microservices with Redis caching and WebSockets, enabling real-time updates and improving scalability.</li>
+                  <li data-i18n="expAsaBullet3">Strengthened security by implementing BFF (Backend-for-Frontend) architecture, AES-GCM encryption, and secure cookies.</li>
+                  <li data-i18n="expAsaBullet4">Partnered with project/design teams to re-engineer workflows, directly contributing to a 30% sales increase (validated via analytics/A-B testing).</li>
+                </ul>
+              </div>
+
+              <!-- Role 2: Software Engineer -->
+              <div class="sub-role" style="margin-top: 1.5rem; border-top: 1px dashed var(--border); padding-top: 1rem;">
+                <h4 style="font-size: 0.92rem; font-weight: 700; color: var(--txt); margin-bottom: 0.15rem;" data-i18n="expSeRoleTitle">Software Engineer</h4>
+                <p class="muted" style="font-size: 0.78rem; margin-bottom: 0.5rem;" data-i18n="expSeWhenRole">Apr 2022 – Apr 2024 • Nagpur, On-site</p>
+                <ul class="bullets">
+                  <li data-i18n="expSeBullet1">Improved DevOps by containerizing services, migrating from Apache to Nginx, and building CI/CD pipelines with AWS + Sentry, reducing deployment times by 25%.</li>
+                  <li data-i18n="expSeBullet2">Expanded Playwright test suite to 60% of React modules, reducing regression bugs and boosting release confidence.</li>
+                  <li data-i18n="expSeBullet3">Provided L2/L3 production support, resolving escalated issues and assisting senior stakeholders during critical incidents.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="t-item card reveal rv2">
+            <div class="t-when" data-i18n="expFreelanceWhen">Feb 2020 – Apr 2021</div>
+            <div class="t-what">
+              <h3 data-i18n="expFreelanceTitle">Freelance Software Engineer • Whiteboard Software</h3>
+              <p class="muted" data-i18n="expFreelanceRole">Legacy Migrations & Mobile Development</p>
+              <ul class="bullets">
+                <li data-i18n="expFreelanceBullet1">Developed custom CodeIgniter applications, migrating databases and refactoring routes.</li>
+                <li data-i18n="expFreelanceBullet2">Built the Jyotish Vishwakosh web platform, serving 10,000+ monthly users.</li>
+                <li data-i18n="expFreelanceBullet3">Coded a companion mobile application in Flutter with Firebase Authentication.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="educationTitle">Education & Timeline</h2>
+        </div>
+
+        <div class="timeline">
+          <div class="t-item card reveal rv1">
+            <div class="t-when" data-i18n="eduMcaWhen">Feb 2021 – Jun 2022</div>
+            <div class="t-what">
+              <h3 data-i18n="eduMcaSchool">Shri Ramdeobaba College of Engineering & Management, Nagpur</h3>
+              <p class="muted" data-i18n="eduMcaDegree">MCA (Master of Computer Applications) • CGPA: 8.6 / 10</p>
+              <ul class="bullets">
+                <li data-i18n="eduMcaBullet1">Specialized in full-stack web architectures, distributed systems, and database optimization.</li>
+                <li data-i18n="eduMcaBullet2">Engaged in advanced cloud computing modules, microservices configurations, and design patterns.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="t-item card reveal rv2">
+            <div class="t-when" data-i18n="eduBcaWhen">Jun 2017 – May 2020</div>
+            <div class="t-what">
+              <h3 data-i18n="eduBcaSchool">Shri Shivaji Science College, Nagpur</h3>
+              <p class="muted" data-i18n="eduBcaDegree">BCA (Bachelor of Computer Applications) • Grade: 64%</p>
+              <ul class="bullets">
+                <li data-i18n="eduBcaBullet1">Acquired strong foundational knowledge in programming concepts, data structures, and relational databases.</li>
+                <li data-i18n="eduBcaBullet2">Practiced software engineering methodologies and web development basics.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="certifications">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="certsTitle">Certifications</h2>
+          <p class="muted" data-i18n="certsText">Professional certifications validate expertise in cloud computing and modern tech platforms.</p>
+        </div>
+
+        <div class="grid three">
+          <div class="card project reveal rv1">
+            <div class="project-top">
+              <h3>AWS Certified Solutions Architect – Associate</h3>
+              <span class="badge academic">AWS</span>
+            </div>
+            <p data-i18n="certAwsDesc">Official AWS Certified Solutions Architect – Associate credential validating expertise in designing resilient, secure, high-performing, and cost-optimized distributed systems on AWS.</p>
+            <div class="project-links">
+              <a class="link" href="https://drive.google.com/file/d/1XAJubip2ygCzAd7s7EkA9J58ChdO8DHF/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-i18n="viewCert">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="card project reveal rv2">
+            <div class="project-top">
+              <h3>AWS Certified Cloud Practitioner</h3>
+              <span class="badge academic">AWS</span>
+            </div>
+            <p data-i18n="certAwsPractitionerDesc">Official cloud practitioner certification verifying foundational expertise in AWS cloud services, security concepts, and architecture principles.</p>
+            <div class="project-links">
+              <a class="link" href="https://drive.google.com/file/d/1XAJubip2ygCzAd7s7EkA9J58ChdO8DHF/view?usp=sharing" target="_blank" rel="noopener noreferrer" data-i18n="viewCert">View Certificate</a>
+            </div>
+          </div>
+
+          <div class="card project reveal rv3">
+            <div class="project-top">
+              <h3>Oracle Certified Associate</h3>
+              <span class="badge academic" data-i18n="certOracleBadge">Java</span>
+            </div>
+            <p data-i18n="certOracleDesc">Credential validating fundamental Java programming capabilities, object-oriented concepts, and API usage.</p>
+            <div class="project-links">
+              <span class="link muted" data-i18n="certOracleOrg">Oracle Certification</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <h2 data-i18n="contactTitle">Get in Touch</h2>
+          <p class="muted" data-i18n="contactIntro">I am open to discuss freelance opportunities, technical challenges, or software engineering positions.</p>
+        </div>
+
+        <div class="grid two">
+          <div class="card reveal rv1">
+            <h3 data-i18n="linksTitle">Links & Info</h3>
+            <div class="contact">
+              <div class="c-row">
+                <span class="c-key">Email</span>
+                <a class="c-val" href="#" id="emailLink" data-mail="cGF0aWxzYXVyYWJoMTkwMkBnbWFpbC5jb20=" data-i18n="emailLink">Send Email</a>
+              </div>
+              <div class="c-row">
+                <span class="c-key">GitHub</span>
+                <a class="c-val" href="https://github.com/saurabh374" target="_blank" rel="me noopener noreferrer">saurabh374</a>
+              </div>
+              <div class="c-row">
+                <span class="c-key">LinkedIn</span>
+                <a class="c-val" href="https://linkedin.com/in/iamsaurabhp" target="_blank" rel="me noopener noreferrer">iamsaurabhp</a>
+              </div>
+              <div class="c-row">
+                <span class="c-key">Location</span>
+                <span class="c-val" data-i18n="contactLocation">Nagpur, Maharashtra, India</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="card reveal rv2">
+            <h3 data-i18n="formTitle">Contact Form</h3>
+            <form
+              id="contactForm"
+              class="form"
+              autocomplete="on"
+              action="https://formsubmit.co/patilsaurabh1902@gmail.com"
+              method="POST"
+            >
+              <!-- FormSubmit config -->
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_template" value="table">
+              
+              <label class="lbl">
+                <span data-i18n="formName">Name</span>
+                <input class="input" name="name" placeholder="Your name" required data-i18n-attr="placeholder:formNamePh" />
+              </label>
+
+              <label class="lbl">
+                <span>Email</span>
+                <input class="input" name="email" type="email" placeholder="Email for reply" required data-i18n-attr="placeholder:formEmailPh" />
+              </label>
+
+              <label class="lbl">
+                <span data-i18n="formSubject">Subject</span>
+                <input class="input" name="_subject" placeholder="Brief subject" data-i18n-attr="placeholder:formSubjectPh" />
+              </label>
+
+              <label class="lbl">
+                <span data-i18n="formMessage">Message</span>
+                <textarea class="input" name="message" rows="5" placeholder="Write message..." required data-i18n-attr="placeholder:formMessagePh"></textarea>
+              </label>
+
+              <label class="consent-check">
+                <input id="privacyConsent" name="privacy_consent" type="checkbox" value="yes" required />
+                <span>
+                  <span data-i18n="formPrivacyConsentPrefix">I agree to send this form data to get in touch.</span>
+                </span>
+              </label>
+
+              <button class="btn" id="sendBtn" type="submit" data-i18n="sendBtn">Send Message</button>
+              <p class="muted tiny form-status" id="formStatus" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <div class="footer-links" aria-label="Legal links" data-i18n-attr="aria-label:legalLinksAria">
+            <a href="privacy.html" data-i18n="privacyLink">Privacy Policy</a>
+            <a href="cookies.html" data-i18n="cookiesLink">Cookies</a>
+            <button type="button" id="cookieSettingsBtn" data-i18n="cookieSettings">Cookie settings</button>
+          </div>
+          <span class="muted tiny">© <span id="year"></span> Saurabh Patil • <span data-i18n="footerText">Personal Portfolio • Associate Solution Architect</span> • v<span id="version"></span></span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <div class="cookie-banner" id="cookieBanner" role="dialog" aria-modal="false" aria-labelledby="cookieBannerTitle" hidden>
+    <div class="cookie-copy">
+      <h2 id="cookieBannerTitle" data-i18n="cookieBannerTitle">Privacy Settings</h2>
+      <p data-i18n="cookieBannerText">
+        I use essential cookies to remember system configurations like theme and language preference. Optional analytical cookies can be activated below.
+      </p>
+    </div>
+
+    <div class="cookie-options" id="cookieOptions" hidden>
+      <label class="cookie-option locked">
+        <input type="checkbox" checked disabled>
+        <span>
+          <strong data-i18n="cookieNecessary">Necessary</strong>
+          <small data-i18n="cookieNecessaryText">Saves active UI configuration selections.</small>
+        </span>
+      </label>
+
+      <label class="cookie-option">
+        <input type="checkbox" id="cookieAnalytics">
+        <span>
+          <strong data-i18n="cookieAnalytics">Analytics</strong>
+          <small data-i18n="cookieAnalyticsText">Aggregates basic site visitation metrics.</small>
+        </span>
+      </label>
+    </div>
+
+    <div class="cookie-actions">
+      <button class="btn ghost" id="cookieCustomizeBtn" type="button" aria-expanded="false" aria-controls="cookieOptions" data-i18n="cookieCustomize">Customize</button>
+      <button class="btn ghost" id="cookieRejectBtn" type="button" data-i18n="cookieReject">Reject</button>
+      <button class="btn ghost" id="cookieSaveBtn" type="button" data-i18n="cookieSave" hidden>Save Choice</button>
+      <button class="btn" id="cookieAcceptBtn" type="button" data-i18n="cookieAccept">Accept All</button>
+    </div>
+  </div>
+
+  <script src="app.js" defer></script>
 </body>
-
 </html>
